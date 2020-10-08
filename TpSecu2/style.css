@@ -1,0 +1,35 @@
+h1, h2 {
+    text-align: center;
+}
+
+menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+     float: left;
+ }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+input[type=submit]{
+    width:15%;
+    margin-left:45%;
+    box-shadow:1px 1px 1px slateblue;
+    cursor:pointer;
+}
+p {
+    text-align: center;
+}
