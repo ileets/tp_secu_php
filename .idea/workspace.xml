@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e2b0270-33c0-421d-9254-707ef329c7ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TpSecu2/reviews.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpSecu2/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602153200897</updated>
       <workItem from="1602153202499" duration="5251000" />
-      <workItem from="1602227582437" duration="4739000" />
+      <workItem from="1602227582437" duration="6360000" />
     </task>
     <servers />
   </component>
@@ -110,9 +110,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602153495148" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602229201161">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1602239468831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602229201161" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602239468831" />
   </component>
 </project>
