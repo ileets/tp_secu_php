@@ -27,11 +27,10 @@
                     <label>Date de naissance : </label><input type="date" name="date" id="date" value="1995-04-25"/>
                 </p>
                 <p>
-                    <label>Numero de CB : </label><input type="number" name="CB" id="CB" aria-valuemax="9999999999999999" minlength="16" maxlength="16" />
+                    <label>Numero de CB : </label><input type="number" name="CB" id="CB" valuemax="9999999999999999" minlength="16" maxlength="16" " />
                 </p>
                 <p>
                     <label>Ville : </label><input type="text" name="ville" id="ville" value="" required pattern="^[A-Za-z '-]+$" maxlength="38"/>
-                    // 38char, is the longest french city name  Beaujeu-Saint-Vallier-Pierrejux-et-Quitteur (Haute-Saône)
                 </p>
             </div>
             <div>
