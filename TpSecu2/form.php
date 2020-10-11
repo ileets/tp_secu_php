@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,19 +17,19 @@
         <form name="Formulaire d'inscription" action="valide.php" method="post">
             <div>
                 <p>
-                    <label>Nom : </label><input type="text" name="nom" id="nom" value="" required pattern="^[A-Za-z '-]+$" maxlength="20"/>
+                    <label>Nom : </label><input type="text" name="nom" id="nom" value=""/>
                 </p>
                 <p>
-                    <label>Prenom : </label><input type="text" name="prenom" id="prenom" value="" required pattern="^[A-Za-z '-]+$" maxlength="20"/>
+                    <label>Prenom : </label><input type="text" name="prenom" id="prenom" value=""/>
                 </p>
                 <p>
-                    <label>Date de naissance : </label><input type="date" name="date" id="date" value="1995-04-25"/>
+                    <label>Date de naissance : </label><input type="date" name="date" id="date" value=""/>
                 </p>
                 <p>
-                    <label>Numero de CB : </label><input type="number" name="CB" id="CB" valuemax="9999999999999999" minlength="16" maxlength="16" " />
+                    <label>Numero de CB : </label><input type="number" name="CB" id="CB" aria-valuemax="9999999999999999"/>
                 </p>
                 <p>
-                    <label>Ville : </label><input type="text" name="ville" id="ville" value="" required pattern="^[A-Za-z '-]+$" maxlength="38"/>
+                    <label>Ville : </label><input type="text" name="ville" id="ville" value=""/>
                 </p>
             </div>
             <div>
@@ -39,4 +38,3 @@
         </form>
     </body>
 </html>
-

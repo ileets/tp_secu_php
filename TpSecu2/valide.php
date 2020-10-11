@@ -15,15 +15,15 @@
         </menu>
 
     <?php
-
-    // Variable de connexion à la base de donnée
     $servername = 'localhost';
     $username = 'tousdroits';
     $password = 'tWnY6fBH4SanFwCd';
 
-    //Tentative de connexion à la BDD
+    //On essaie de se connecter
     try{
         $conn = new PDO("mysql:host=$servername;dbname=basetest", $username, $password);
+        $conn ->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+
         //erreur PDO vers Exception
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         print("Connexion réussie\n");

@@ -43,6 +43,8 @@
             try{
 
                 $conn = new PDO("mysql:host=$servername;dbname=basetest", $username, $password);
+                $conn ->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+
                 //erreur PDO vers Exception
                 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
@@ -53,10 +55,10 @@
 
                 $sth = $conn->prepare("
                                     SELECT id, nom, prenom, date_de_naissance, ville
-                                    FROM utilisateur WHERE nom = '$nom' AND prenom = '$prenom'
+                                    FROM utilisateur WHERE nom = :nom AND prenom = :prenom
                                 ");
-                //$sth->bindParam(':nom', $nom);
-                //$sth->bindParam(':prenom', $prenom);
+                $sth->bindParam(':nom', $nom);
+                $sth->bindParam(':prenom', $prenom);
                 $sth->execute();
 
                 $result = $sth->setFetchMode(PDO::FETCH_ASSOC);
