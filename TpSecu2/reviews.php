@@ -16,6 +16,8 @@
 
 </menu>
 
+yarn jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-mapreduce-examples-3.1.1.3.1.0.0-78.jar \wordcount /education/ece_2020_fall_app_1/data/alice.txt \education/ece_2020_fall_app_1/i.makhlouf-ece/lab1/output
+
 <?php
 echo "<table style='border: solid 1px black;'>";
 echo "<tr><th>Commentaires</th></tr>";
