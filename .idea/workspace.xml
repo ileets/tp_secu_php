@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e2b0270-33c0-421d-9254-707ef329c7ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpSecu2/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TpSecu2/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/reviews.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +83,8 @@
       <updated>1602153200897</updated>
       <workItem from="1602153202499" duration="5251000" />
       <workItem from="1602227582444" duration="2491000" />
+      <workItem from="1602402470134" duration="1215000" />
+      <workItem from="1602418120551" duration="644000" />
     </task>
     <servers />
   </component>
@@ -97,6 +101,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="175" key="#CLI_Interpreters" timestamp="1602153498323">

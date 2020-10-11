@@ -17,24 +17,23 @@
         <form name="Formulaire d'inscription" action="valide.php" method="post">
             <div>
                 <p>
-                    <label>Nom : </label><input type="text" name="nom" id="nom" value=""/>
+                    <label>Nom : </label><input type="text" name="nom" id="nom" value="" required pattern="^[A-Za-z '-]+$" maxlength="20"/>
                 </p>
                 <p>
-                    <label>Prenom : </label><input type="text" name="prenom" id="prenom" value=""/>
+                    <label>Prenom : </label><input type="text" name="prenom" id="prenom" value="" required pattern="^[A-Za-z '-]+$" maxlength="20"/>
                 </p>
                 <p>
-                    <label>Date de naissance : </label><input type="date" name="date" id="date" value=""/>
+                    <label>Date de naissance : </label><input type="date" name="date" id="date" value="1995-04-25"/>
                 </p>
                 <p>
-                    <label>Numero de CB : </label><input type="number" name="CB" id="CB" aria-valuemax="9999999999999999"/>
+                    <label>Numero de CB : </label><input type="number" name="CB" id="CB" valuemax="9999999999999999" minlength="16" maxlength="16" " />
+
                 </p>
                 <p>
-                    <label>Ville : </label><input type="text" name="ville" id="ville" value=""/>
+                    <label>Ville : </label><input type="text" name="ville" id="ville" value="" required pattern="^[A-Za-z '-]+$" maxlength="38"/>
                 </p>
             </div>
             <div>
-                <input type="submit" name="valider" id="valider" value="Valider"/>
-            </div>
         </form>
     </body>
 </html>
