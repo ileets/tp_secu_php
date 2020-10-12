@@ -11,6 +11,8 @@
             <li><a href="index.php" title="Accueil">Index</a></li>
             <li><a href="form.php" title="Formulaire nouvel utilisateur">Formulaire</a></li>
             <li><a href="recherche.php" title="Recherche utilisateur">Recherche</a></li>
+            <li><a href="reviews.php" title="Afficher commentaires"</li>
+            <li><a hrref="all_records.php" title=" Liste utilisateurs "</li>
         </menu>
 
         <h2>Bienvenu sur le site de tp</h2>

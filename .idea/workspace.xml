@@ -21,8 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9e2b0270-33c0-421d-9254-707ef329c7ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpSecu2/All records.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/all_records.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TpSecu2/deletion.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/deletion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpSecu2/all_records.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/all_records.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpSecu2/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpSecu2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpSecu2/recherche.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/recherche.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpSecu2/resultat.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/resultat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TpSecu2/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/TpSecu2/reviews.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +87,7 @@
       <workItem from="1602153202499" duration="5251000" />
       <workItem from="1602227582444" duration="2491000" />
       <workItem from="1602402470134" duration="1215000" />
-      <workItem from="1602418120551" duration="4564000" />
+      <workItem from="1602418120551" duration="4905000" />
     </task>
     <servers />
   </component>
@@ -123,5 +127,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602447200679" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602507513493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602507513493" />
   </component>
 </project>

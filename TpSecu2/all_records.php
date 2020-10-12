@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Display all records from Database</title>
+    <title>TP Secu PHP</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<h1>Bases de données</h1>
+<menu type="toolbar" autofocus="true" id="menuprinc">
+    <li><a href="index.php" title="Accueil">Index</a></li>
+    <li><a href="form.php" title="Formulaire nouvel utilisateur">Formulaire</a></li>
+    <li><a href="recherche.php" title="Recherche utilisateur">Recherche</a></li>
+    <li><a href="reviews.php" title="Afficher commentaires"</li>
+    <li><a hrref="all_records.php" title=" Liste utilisateurs "</li>
+</menu>
 
 <h2>Utilisateurs</h2>
 
