@@ -12,8 +12,10 @@
         <td>Sr.No.</td>
         <td>Full Name</td>
         <td>Age</td>
-        <td>Edit</td>
+        <td>Ville</td>
+        <td>Date de naissance</td>
         <td>Delete</td>
+
     </tr>
 
     <?php
