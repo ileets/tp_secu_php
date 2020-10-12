@@ -29,18 +29,17 @@ if(!$db)
 }
 ?>
 
-<table border="2">
+<table style="align-content: center" border="solid 2px" margin="5%" cellpadding="5%" width="100%">
     <tr>
-        <td>Sr.No.</td>
-        <td>Full Name</td>
-        <td>Age</td>
-        <td>Ville</td>
+        <th>Sr.No.</th>
+        <th>Full Name</th>
+        <th>Age</th>
+        <th>Ville</th>
         <?php if($user == "tousdroits"){
-            echo "<td>Date de naissance</td>";
-            echo "<td>numero CB</td>";
+            echo "<th>Date de naissance</th>";
+            echo "<th>numero CB</th>";
         } ?>
-        <td>Delete</td>
-
+        <th>Delete</th>
     </tr>
 
     <?php
