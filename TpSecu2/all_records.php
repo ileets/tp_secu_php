@@ -17,10 +17,10 @@
 <h2>Utilisateurs</h2>
 
 <?php
-$user = "tousdroits";
-//$user = "lectureSeule";
-$mdp = "tWnY6fBH4SanFwCd";
-//$mdp = "ceciestmonmdp";
+//$user = "tousdroits";
+$user = "lectureSeule";
+//$mdp = "tWnY6fBH4SanFwCd";
+$mdp = "ceciestmonmdp";
 $db = mysqli_connect("localhost", $user, $mdp,"basetest");
 
 if(!$db)
@@ -32,8 +32,8 @@ if(!$db)
 <table style="align-content: center" border="solid 2px" margin="5%" cellpadding="5%" width="100%">
     <tr>
         <th>Sr.No.</th>
-        <th>Full Name</th>
-        <th>Age</th>
+        <th>last Name</th>
+        <th>First Name</th>
         <th>Ville</th>
         <?php if($user == "tousdroits"){
             echo "<th>Date de naissance</th>";
