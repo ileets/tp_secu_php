@@ -10,7 +10,6 @@
 <menu type="toolbar" autofocus="true" id="menuprinc">
     <li><a href="index.php" title="Accueil">Index</a></li>
     <li><a href="form.php" title="Formulaire nouvel utilisateur">Formulaire</a></li>
-    <li><a href="recherche.php" title="Recherche utilisateur">Recherche</a></li>
     <li><a href="reviews.php" title="Afficher commentaires">Commentaires</a></li>
     <li><a href="all_records.php" title=" Liste utilisateurs ">Liste d'utilisateurs</a></li>
 </menu>
@@ -18,8 +17,11 @@
 <h2>Utilisateurs</h2>
 
 <?php
-$user = "tousdroits";
-$db = mysqli_connect("localhost", $user,"tWnY6fBH4SanFwCd","basetest");
+//$user = "tousdroits";
+$user = "lectureSeule";
+//$mdp = "tWnY6fBH4SanFwCd";
+$mdp = "ceciestmonmdp";
+$db = mysqli_connect("localhost", $user, $mdp,"basetest");
 
 if(!$db)
 {
