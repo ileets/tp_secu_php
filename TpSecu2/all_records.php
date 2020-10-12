@@ -17,27 +17,31 @@
 
 <h2>Utilisateurs</h2>
 
+<?php
+$user = "tousdroits";
+$db = mysqli_connect("localhost", $user,"tWnY6fBH4SanFwCd","basetest");
+
+if(!$db)
+{
+    die("Connection failed: " . mysqli_connect_error());
+}
+?>
+
 <table border="2">
     <tr>
         <td>Sr.No.</td>
         <td>Full Name</td>
         <td>Age</td>
         <td>Ville</td>
-        <td>Date de naissance</td>
+        <?php if($user == "tousdroits"){
+            echo "<td>Date de naissance</td>";
+            echo "<td>numero CB</td>";
+        } ?>
         <td>Delete</td>
 
     </tr>
 
     <?php
-
-    $db = mysqli_connect("localhost","tousdroits","tWnY6fBH4SanFwCd","basetest");
-
-    if(!$db)
-    {
-        die("Connection failed: " . mysqli_connect_error());
-    }
-
-
     $records = mysqli_query($db,"select * from utilisateur"); // fetch data from database
 
     while($data = mysqli_fetch_array($records))
@@ -48,7 +52,13 @@
             <td><?php echo $data['nom']; ?></td>
             <td><?php echo $data['prenom']; ?></td>
             <td><?php echo $data['ville']; ?></td>
-            <td><?php echo $data['date_de_naissance']; ?></td>
+            <?php if($user == "tousdroits"){
+                $date = $data['date_de_naissance'];
+                $cb = $data['numero_CB'];
+            echo "<td> $date </td>";
+            echo "<td> $cb </td>";
+            }
+            ?>
             <td><a href="deletion.php?id=<?php echo $data['id']; ?>">Delete</a></td>
         </tr>
         <?php
