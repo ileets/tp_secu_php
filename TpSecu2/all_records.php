@@ -17,10 +17,10 @@
 <h2>Utilisateurs</h2>
 
 <?php
-//$user = "tousdroits";
-$user = "lectureSeule";
-//$mdp = "tWnY6fBH4SanFwCd";
-$mdp = "ceciestmonmdp";
+$user = "tousdroits";
+//$user = "lectureSeule";
+$mdp = "tWnY6fBH4SanFwCd";
+//$mdp = "ceciestmonmdp";
 $db = mysqli_connect("localhost", $user, $mdp,"basetest");
 
 if(!$db)
