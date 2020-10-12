@@ -11,7 +11,7 @@ if(!$db)
 
 $id = $_GET['id']; // get id through query string
 
-$del = mysqli_query($db,"delete from utlisateur where id = '$id'"); // delete query
+$del = mysqli_query($db,"delete from utilisateur where id = '$id'"); // delete query
 
 if($del)
 {
